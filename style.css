@@ -61,12 +61,11 @@ nav ul li a:hover {
   background-repeat: no-repeat;
 }
 
-div p {
+div h1 {
   position: absolute;
   z-index: 1;
   bottom: 60px;
   left: 400px;
-
   color: red;
   font-size: 6rem;
   font-weight: 600;
