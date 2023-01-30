@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Jura", sans-serif;
+}
+
+header {
+  list-style-type: none;
+  display: flex;
+  padding: 15px;
+  background: rgb(51, 51, 51, 0.7);
+}
+
+header nav {
+  flex-grow: 2;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+a {
+  padding: 20px;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+  border-radius: 5px;
+  background: #111;
+}
+
+.contact {
+  align-self: flex-end;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.warp-club {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.column1 {
+  /* border: 2px solid red; */
+  background-image: url(./assets/background.jpg);
+  width: 50%;
+  height: 900px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div h1 {
+  position: absolute;
+  z-index: 1;
+  bottom: 60px;
+  left: 400px;
+  color: red;
+  font-size: 6rem;
+  font-weight: 600;
+  writing-mode: vertical-rl;
+}
+
+.column2 {
+  /* border: 2px solid red; */
+  background-image: url(./assets/main.jpg);
+  width: 50%;
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
